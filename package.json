@@ -1,0 +1,19 @@
+{
+  "name": "xcyl-h5-platform",
+  "version": "1.0.0",
+  "description": "康力元H5展示平台",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "admin": "cd admin && npm run dev",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install && cd ../admin && npm install",
+    "setup": "node setup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

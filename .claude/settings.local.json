@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /Users/chenbo/Archives/XCYL/H5/setup.sh)",
+      "Bash(npm install *)",
+      "Bash(mysql -u root)",
+      "Bash(brew services *)",
+      "Bash(mysql -u root -e \"SELECT 1\")",
+      "Bash(mysql -u root -p'' -e \"SELECT 1\")",
+      "Bash(mysqld_safe --skip-grant-tables --skip-networking)",
+      "Bash(mysql -u root -e \"FLUSH PRIVILEGES; ALTER USER 'root'@'localhost' IDENTIFIED BY ''; FLUSH PRIVILEGES;\")",
+      "Bash(killall mysqld *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3000/health)",
+      "Bash(curl -s http://localhost:5174)",
+      "Bash(chmod +x /Users/chenbo/Archives/XCYL/H5/docker-start.sh)",
+      "Bash(docker-compose down *)",
+      "Bash(lsof -ti:5173)",
+      "Bash(xargs kill *)",
+      "Bash(lsof -ti:5174)",
+      "Bash(lsof -ti:3000)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(mysql -u root xcyl_h5)"
+    ]
+  }
+}
